@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!--css/js files are also supported, you can
+ refer them using relative path.
+ Save all files first, including html file
+ to use this feature. -->
+
+
+	<style type="text/css">
+	
+    h1{
+    color: #e2e2e2;
+    }
+    
+    body{
+    background-color: #black;
+    
+    }
+    
+    .site{
+    	display: grid;
+    	width: 100%;
+    	height: 1600px;
+    	grid-template-columns: 1fr 2fr 2fr;
+    	grid-template-rows: 100px 1fr 1fr 1fr 100px ;
+    	grid-template-areas:
+    		"title title title"
+    		"sidebar main main"
+    		"sidebar main main"
+    		"sidebar main main"
+    		"footer footer footer"
+    		;
+    	background-color: red;
+    }
+    
+    .title{
+    	color: white;
+    	background-color: black;
+    	grid-area: title;
+    	font: 30px "Time's New Roman",Verdana, sans, times;
+    	text-align: center;
+    	vertical-align: middle;
+    }
+    
+    .main{
+    	color: black;
+    	grid-area: main;
+    	background-color: grey;
+    	text-align: center;
+    	
+    	
+    }
+    
+    .sidebar{
+    	color: red;
+    	grid-area: sidebar;
+    	background-color: yellow;
+    	text-align: center;
+    }
+    
+   .footer{
+   	background-color: black;
+   	grid-area: footer;
+   	color: green;
+   	text-align: center;
+   }
+    </style>
+</head>
+
+<body>
+
+   <div class="site"> 
+
+	<div class="title">
+     Title
+	</div>
+		
+	<div class="main">
+		Main
+    </div>
+    <div class="sidebar">
+		$idebar
+    </div>
+    <div class="footer">
+		Footer
+    </div>
+      
+</body>
+</html>
+
+    

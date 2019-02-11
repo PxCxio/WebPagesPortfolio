@@ -1,0 +1,34 @@
+
+<head>
+<style>
+.border{width:640px; height:auto; margin:auto)
+.autorotate{
+	width:96.5%;
+	display:block;
+	padding:5px;
+	background-color:tomato;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+</style>
+
+<script> src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="rotate.js"></script>
+</head>
+
+<body background="..background1.png">
+<div class="border">
+	<script language="javascript">
+	$(window).load(function(){
+	$("view360").rotate((imageDir:"images',imageCount:36,imageExt:'jpg',canvasID:'img',canvasWidth:340,canvasHeight:480,autoRotate:false));
+	});
+	</script>
+	<div id="view360">
+	<a href="#" class="autorotate">Auto rotate</a>
+	</div>
+	<p>Click and drag to zoom the image</p>
+
+</div>

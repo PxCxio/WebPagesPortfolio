@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!--css/js files are also supported, you can
+ refer them using relative path.
+ Save all files first, including html file
+ to use this feature. -->
+
+
+	<style type="text/css">
+	
+    h1{
+    color: #e2e2e2;
+    }
+   
+    *{
+	margin: 0;
+	padding: 0;
+}
+ 
+    body{
+    background-color: #black;
+    
+    }
+    
+    .site{
+    	display: grid;
+    	width: 100%;
+    	height: 740px;
+    	grid-template-columns: 1fr 2fr 2fr;
+    	grid-template-rows: 100px 1fr 1fr 160px 100px ;
+    	grid-template-areas:
+    		"title title title"
+    		"main main main"
+    		"main main main"
+    		"sidebar sidebar sidebar"
+    		"footer footer footer"
+    		;
+    	background-color: red;
+    }
+    
+    .title{
+    	color: white;
+    	background-color: black;
+    	grid-area: title;
+    	font: 30px "Time's New Roman",Verdana, sans, times;
+    	text-align: center;
+    	vertical-align: middle;
+    	line-height: 3.2;
+	
+	}
+    
+    .main{
+    	color: black;
+    	grid-area: main;
+    	background-color: grey;
+    	text-align: center;
+    	font: 30px "Time's New Roman",Verdana, sans, times;
+        	
+    	
+    }
+    
+    .sidebar{
+    	color: red;
+    	grid-area: sidebar;
+    	background-color: yellow;
+    	text-align: center;
+    }
+    
+   .footer{
+   	background-color: black;
+   	grid-area: footer;
+   	color: green;
+   	text-align: center;
+        vertical-align: middle;
+    	font: 30px "Time's New Roman",Verdana, sans, times;
+	line-height: 3.2;
+   }
+ nav{
+   margin 150px auto;
+   width: 450px;
+   height: 450px;
+}
+
+#check{
+   diplay: none;
+}
+
+#central {
+   cursor: pointer;
+   width:  150px;
+   height: 150px;
+   position: absolute;
+   margin: 150px 150px;
+   z-index: 1;
+}
+
+#central img{
+	width: 100%;
+	transition: all .4s ease-in-out;
+	border-radius: 50%;
+}
+
+.link{
+	position: absolute;
+	margin: 95px 195px
+	width: 60px;
+	border-radius: 50%;
+	transition: all .1s ease-out;
+}
+ 
+#check:checked ~ a #link_01{
+	transform: translateY(-195px);
+}
+
+#check:checked ~ a #link_02{
+	transform: translateX(195px);
+        transition-delay: .1s;
+}
+
+#check:checked ~ a #link_03{
+	transform: translateY(195px);
+	transition-delay: .2s
+}
+#check:checked ~ a #link_04{
+	transform: translateX(-195px);
+	transition-delay: .2s
+}
+
+#check: checked ~ central img{
+	transform: rotate(45deg);
+}
+
+    </style>
+</head>
+
+<body>
+
+   <div class="site"> 
+
+	<div class="title">
+     Title
+	</div>
+		
+	<div class="main">
+	
+   <!--video width="320" height="240" controls>
+	<source src="Phogy.mp4" type="video/mp4">
+	</video--> 
+
+	<nav>
+	  
+	  <input type="checkbox" id="check">
+	  <label id="central" for="check"><img src="centralx.png"/></label>
+	  <a href="a"><img class="link" id="link_01.png" src="link_01.png"/></a>
+	  <a href="a"><img class="link" id="link_02.png" src="link_02.png"/></a>
+	  <a href="a"><img class="link" id="link_03.png" src="link_03.png"/></a>
+	  <a href="a"><img class="link" id="link_04.png" src="link_04.png"/></a>
+	   
+	</nav>
+
+   </div>
+    <div class="sidebar">
+		sidebar
+    </div>
+    <div class="footer">
+		Footer
+    </div>
+      
+</body>
+</html>
+
+    

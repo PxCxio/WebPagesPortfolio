@@ -1,0 +1,247 @@
+<!-- ***************************************************************************************
+  Author     : Ciro Pascasio
+  Course     : WEB-3
+  Professor  : Michael Robinson
+  Program #  : Assignment 1 Make your own Webpage
+               
+**************************************************************************************** -->
+<!DOCTYPE html>
+
+<html lange="en">
+<head>
+<meta charset="utf-8" />
+<title> Ciro Samuel Pascasio - Snakeskin Outlaws #4</title>
+<style>
+h1 {
+   font-family: Arial;
+   color: blue;
+   text-align: Center;
+   }
+
+body {
+      background-image: url("images/snakeskin/SSOBanner.jpg");
+      background-size: contain;
+      <!-background : #0f0000;-->
+      margin : 0;
+      padding : 0;
+      font-family : "Helvetica","Arial";
+     }
+
+	
+ a:link { color:red;
+          text-decoration:none;
+        }
+
+ a:visited {
+            color:green;
+           }
+ nav ul ul
+        {
+            display: none;
+            /*if changed to yes it will display all ul ul menues */
+        }
+
+
+        nav ul li:hover > ul
+        {
+            display: block;
+        }
+
+
+        nav ul
+        {
+            /* this section does not seem to have any effect */
+            background: purple; /* #efefef; */
+            background: linear-gradient(top, #101010 0%, #2f1a1a 100%);
+            background: -moz-linear-gradient(top, #101010 0%, #2f1a1a 100%);
+            background: -webkit-linear-gradient(top, #101010 0%,#2f1a1a 100%);
+            box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+            padding: 0 5px;
+            border-radius: 10px;
+            list-style: none;
+            position: relative;
+            display: inline-table;
+        }
+
+
+        nav ul:after
+        {
+            content: ""; clear: both; display: block;
+        }
+
+
+        nav ul li
+        {
+            /*left will display the menu in current order
+              right will display menu from the right (backwards) */
+            float: left;
+        }
+
+
+        nav ul li:hover
+        {
+            background: #1a052b; /* #E0E0E0; #4b545f; = Very dark grayish blue./*
+            background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+        }
+
+
+        nav ul li:hover a
+        {
+            /* this section does not seem to have any effect */
+            color: cyan; /* #ffffff; =white#ff00ff; /*#fff; */ /*menu name color */
+        }
+
+
+        nav ul li a
+        {
+            display: block; padding: 10px 20px; /* menu height by witdh */
+            color: red; /* main menu name #757575;*/ text-decoration: unset;
+
+                /*
+                text-decoration: none;
+                text-decoration: underline red;
+                text-decoration: underline wavy red;
+
+                text-decoration: inherit;
+                text-decoration: initial;
+                text-decoration: unset;
+                */
+        }
+
+
+        nav ul ul
+        {
+                /* sub menues colors #bfc1c6;= light gray #5f6975;=darker lightslategray */
+                background: #1a052b;  border-radius: 0px; padding: 0;
+                position: absolute; top: 100%;
+        }
+
+
+        nav ul ul li
+        {
+                /*lines color top and bottom on submenues selections */
+                float: none; /*yes will display menues sideways, not top down */
+                border-top: 1px solid black; /*#6b727c; */ /*border top */
+                border-bottom: 1px solid black; /*border down */
+                position: relative;
+        }
+
+
+        nav ul ul li a
+        {
+                /* selection name color at ul ul li */
+                padding: 10px 40px;
+                color: blue; /* #fff; */
+        }
+
+
+        nav ul ul li a:hover
+        {
+                /* hovering submenu background color selections #4b545f; submenu */
+                background: #60044e;
+        }
+
+
+        nav ul ul ul
+        {
+                position: absolute; left: 100%; top:0;
+        }
+
+	#p1x
+	{
+		vertical-align:top;
+		align: center;
+	}
+
+	
+	
+
+</style>
+</head>
+
+<body>
+
+
+<table >
+<tr style="color:black;">
+
+<tr>
+<td style="width:13%;"></td>
+  <td>
+  <img src="images/Snakeskin/Fnt1.jpg" alt="SSO Font" style="width:950px;height:113px;">
+  </td>
+</tr>
+
+
+  <style type="text/css"> </style>
+</tr>
+
+</table>
+
+
+<nav align="center">
+<ul>
+        <li><a href="index.html">Home</a>
+           <ul>
+             <li><a href="musicPage.html">Music</a></li>
+             <li><a href="videoPage.html">Videos</a></li>
+             <li><a href="mProduction.html">Music Productions</a></li>
+             <li><a href="Pgm2.php">Pgm2</a></li>
+	   </ul>
+	</li>
+	<li><a href="bandhistory.html">Band</a>
+	  <ul>
+	    <li><a href="JackRidg.html">Jack "The Jersey Devil" Ridges</a></li>
+	    <li><a href="Andres.html">Andres The Artist, Roadie</a></li>
+	    <li><a href="AlanFrost.html">Alan Frost</a></li>
+	    <li><a href="DavidVeinz.html">David Veinz</a></li>
+	    <li><a href="RobOb.html">RobBarracuda "Styx"</a></li>
+	    <li><a href="Ciro.html"> Ciro "The Nitro Outlaw" Pascasio</a><li>
+	   
+
+	      <li><a href="bandhistory.html">Honorary & Past Members</a></li>
+    <ul>
+    </ul>
+	</ul>     
+         </li>			 
+		<li><a href="MusicNews.html">News</a></li>
+		<li><a href="Media.html">Media</a></li>
+		<li><a href="TourDts.html">Tour Dates</a></li>
+		<li><a href="privLib.html">Music Library</a></li>
+		<li><a href="bandsweL.html">Bands We Like</a></li>
+	 	<li><a href="merch.html">Band Merch</a></li>
+		<li><a href="Contact.html">Contact us</a></li>
+
+ 	  </ul>
+    </ul>
+</nav>
+
+</tr>
+ 
+ <br></br>
+
+<div align="center" style="font-size: 20px;"></div>
+<table class="Bxtr">
+
+ <tr>
+   
+  <td style="width:22%;">
+   <iframe width="100%" height="380" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_1143520?widget_id=55&pwc[included_songs]=1&context_type=page_object&spoid=artist_1143520" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+  </td>
+
+  <td id="p1x" style="width:67%;"><font face="helvetica" color="white" size="5"><p>Snakeskin Outlaws is a Miami based Rock N' Roll band formed in 2019, from the original line up: Jack Ridges, Alan Frias, Jerry Caceres and Roberto obregon the band has been recruiting more outlaws, making music and memories, evolving and through high tides and hell fires have managed to stay alive and offer you music</p>
+  </font>
+  </td>
+
+ </tr>
+
+ <td
+
+</table>
+
+
+</body>
+</html>
+

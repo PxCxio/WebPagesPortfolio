@@ -1,0 +1,29 @@
+
+<html>
+   <head>
+     <title>Controller2.php</title>
+   </head>
+
+   <body>
+      <?php
+	//find save modify delete clear
+	
+	
+	if ( $_POST['submit'] )
+	{
+	   echo "The submit button has been pressed. ";
+	}
+	else if ( $_POST[ 'save' ] )
+
+	{
+	echo "You Pressed the save submit button.";
+	}	
+	else
+	{
+	   echo " unknown button was pressed";
+	}
+
+      ?>
+
+   </body>
+  </html>

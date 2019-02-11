@@ -1,0 +1,593 @@
+<!doctype html>
+<!-- ************************************************************************************
+
+/* http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu 
+   has some explanation about code in dropdown menu  */
+
+  Page Name  : MyNewWebsite.php
+  Author     : Michael Robinson
+  URL        : http://ocelot.aul.fiu.edu/~mrobi002
+  Course     : CGS4854 - Web Design and Management
+  Professor  : Michael Robinson 
+  Purpose    : To present to the student a complete website
+               require by all students as the course project.
+               This website will be built in 4 steps, programs 1, 2, 3 and 4.
+               Each student can choose their own topic, except politics, religion or sex.
+               This site will be updated every semester, 
+               updating and including new technologies
+
+************************************************************************************* -->
+                 
+<!-- ************************************************************************************
+  Program   : ../includes/header.php
+  Author    : Michael Robinson
+  Course    : CGS 4854 
+  Professor : Michael Robinson 
+
+************************************************************************************* -->
+
+<html>
+   <head>
+      <title>Michael Robinson - header.php</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />	
+   </head>
+          
+   <body style="margin: 0px; height: 100px;">
+      <table style="width: 100%; margin: auto;">
+         <br>
+         <tr>
+            <td style="width: 15%;" align="left">
+               <!-- img src=" " class=" " alt=" " / -->
+            </td>
+                			
+            <td style="width: 70%; color: #000064; font-size: 24px;"  align="center">
+               <font face="Trebuchet MS">The Website Company</font>
+            </td>
+                  		
+            <td style="width: 15%;" align="left">
+               <!-- img src=" " class=" " alt=" " /-->
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
+
+      
+
+
+            
+<!-- ************************************************************************************
+  Author     : Michael Robinson
+  Course     : CGS 4854  
+  Professor  : Michael Robinson 
+  Program #  : Program #1 - Create a website with topic of choice using class languages
+			   HTML, PHP, CSS, Forms, tables, paragraphs, breaks, with graphics and different
+			   font types and sizes, and passing data
+			   Page rsidebar.php - Purpose: Display right sidebar with images as passed values
+
+  Due Date   : 
+  
+  Certification: 
+  I hereby certify that this work is my own and none of it is the work of any other person. 
+
+  ..........{ student's name }..........
+
+************************************************************************************* -->
+<html>
+
+   <head>
+      <title>Michael Robinson - header.php</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />	
+   </head>
+          
+   <body style="margin: 0px; height: 100px;">
+
+   
+
+<!-- **********************************************************************
+     Page Name: mainMenu.php                                               
+     Author:    Michael Robinson                                           
+     Updated:   12-29-2014                                                 
+     Purpose:   CSS dropdown menues samples                                          
+                                                                            
+     Thanks to: line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu 
+*********************************************************************** -->
+
+
+<html>
+
+  <head>  
+      
+    <title>CSS Dropdown Menu SecondWebPage.html Michael Robinson - FIU Research</title>
+        
+            
+    <style type="text/css">
+        nav ul ul 
+        {
+            display: none;
+            /*if changed to yes it will display all ul ul menues */
+        }
+        
+        
+        nav ul li:hover > ul 
+        {
+            display: block;
+        }
+        
+          
+        nav ul 
+        {
+            /* this section does not seem to have any effect */
+            background: purple; /* #efefef; */ 
+            background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+            background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+            background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+            box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+            padding: 0 5px;
+            border-radius: 10px;  
+            list-style: none;
+            position: relative;
+            display: inline-table;
+        }
+        
+            
+        nav ul:after 
+        {
+            content: ""; clear: both; display: block;
+	}
+                
+                
+        nav ul li 
+        {
+            /*left will display the menu in current order
+              right will display menu from the right (backwards) */
+            float: left;
+        }
+        
+        
+	nav ul li:hover 
+        {
+            background: #E0E0E0; /* #E0E0E0; #4b545f; = Very dark grayish blue./* 
+            background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+        }
+                
+                
+        nav ul li:hover a 
+        {
+            /* this section does not seem to have any effect */        
+            color: cyan; /* #ffffff; =white#ff00ff; /*#fff; */ /*menu name color */
+        }
+                
+                
+        nav ul li a 
+        {
+            display: block; padding: 10px 20px; /* menu height by witdh */
+            color: red; /* main menu name #757575;*/ text-decoration: unset;
+                
+                /*
+                text-decoration: none;
+                text-decoration: underline red;
+                text-decoration: underline wavy red;
+
+                text-decoration: inherit;
+                text-decoration: initial;
+                text-decoration: unset;
+                */
+	}
+                
+                
+        nav ul ul 
+        {
+                /* sub menues colors #bfc1c6;= light gray #5f6975;=darker lightslategray */
+                background: #f2f2f2;  border-radius: 0px; padding: 0; 
+                position: absolute; top: 100%;
+        }
+        
+        
+	nav ul ul li 
+        {
+                /*lines color top and bottom on submenues selections */
+		float: none; /*yes will display menues sideways, not top down */ 
+		border-top: 1px solid black; /*#6b727c; */ /*border top */
+		border-bottom: 1px solid black; /*border down */
+		position: relative;
+	}
+	
+	
+        nav ul ul li a 
+        {
+                /* selection name color at ul ul li */
+                padding: 10px 40px;
+                color: blue; /* #fff; */
+        }	
+                
+                
+        nav ul ul li a:hover 
+        {
+                /* hovering submenu background color selections #4b545f; submenu */
+                background: yellow; 
+        }
+                
+                
+        nav ul ul ul 
+        {
+                position: absolute; left: 100%; top:0;
+        }
+
+
+    </style>
+  
+  </head>
+    
+    
+  <body> <!-- most web commands go here -->
+       
+    <nav align="center">
+       <ul>
+          <li><a href="#">Teaching</a>
+             <ul>
+                <li><a href="#">Current Semester</a>  
+                   <ul>
+                      <li><a href="../../teaching/teachingMain.php#current">Class Schedules</a></li>
+                      <li><a href="../../teaching/HardwareLab/HardwareMain.php">Hardware Labs</a></li>
+                      <li><a href="../../teaching/teachingMain.php#C_ANSI">C - ANSI</a></li>
+                      <li><a href="../../teaching/teachingMain.php#java">Java</a></li>
+                      <li><a href="../../teaching/teachingMain.php#OS">Operating Systems</a></li>
+                      <li><a href="../../teaching/teachingMain.php#links">Useful Links</a></li>
+                      <li><a href="../../teaching/teachingMain.php#WEB">Web Design Management</a>
+                         <ul>
+                            <li><a href="../../teaching/teachingMain.php#HTML">HTML</a></li>
+                            <li><a href="../../teaching/teachingMain.php#CSS">CSS</a></li>
+                            <li><a href="../../teaching/teachingMain.php#JS">JavaScript</a></li>
+                            <li><a href="../../teaching/teachingMain.php#JSP">JSP</a></li>
+                            <li><a href="../../teaching/teachingMain.php#PHP">PHP</a></li>
+                            <li><a href="../../teaching/teachingMain.php#SQL">mySql</a></li>
+                            <li><a href="../../teaching/teachingMain.php#TOOLS">Web Tools</a></li>
+                            
+                            <li><a href="../../teaching/teachingMain.php#PERL"">Call Perl</a></li>
+                         </ul>
+                      </li>                            
+                   </ul>
+                </li>
+                <li><a href="../../teaching/futureSemesters.php">Future Semester</a></li>
+                <li><a href="../../teaching/previousSemesters.php">Previous Semester</a></li>
+             </ul>
+          </li>
+
+          <li><a href="../../research/research.php">Research</a></li>            
+          <li><a href="../../biography/biography.php">Biography</a></li>
+          <li><a href="../../purpose/purpose.php">Purpose</a></li>
+          <li><a href="../../contactsus/contactUs.php">Contact Me</a></li>             
+          <li><a href="../../index_cgi/">Home</a></li>
+       </ul>
+    </nav>
+     
+  </body> 
+
+</html>
+
+
+
+
+
+   <br>
+   <div>
+      <form method="post" action="../../includes/WebM_site/Controller.php">
+         <div align="center" style="font-size: 20px;"><b>Customer's Profile</b></div>
+         <br>					
+         <table style="width: 50%; margin: 0px auto; padding-right: 10%;">
+            <tr>
+               <td style="width: 5%; text-align: right;">Telephone &nbsp; </td>
+               <td style="width: 20%;">
+                  <input type="text" name="Telephone" value="" style="width: 100%;">
+               </td>
+            </tr>
+            
+            <tr>
+               <td style="width: 5%; text-align: right;">First Name &nbsp; </td>
+               <td style="width: 20%;">
+                  <input type="text" name="FirstName" value="" style="width: 100%;">
+               </td>
+            </tr>  
+            
+            <tr>
+               <td style="width: 5%; text-align: right;">Last Name &nbsp; </td>
+               <td style="width: 20%;">
+                  <input type="text" name="LastName" value="" style="width: 100%;">
+               </td>
+            </tr>
+            
+            <tr>
+               <td style="width: 5%; text-align: right;">Email &nbsp; </td>
+               <td style="width: 20%;">
+                  <input id="birth" type="text" name="Email" value="" style="width: 100%;">
+               </td>
+            </tr>						
+
+            <tr><td> &nbsp; </td> </tr>
+           
+            <tr>
+               <td style="width: 5%; text-align: right;">Age &nbsp; </td>
+               <td style="width: 20%; text-align: left;">
+                   <select name="age" style="width: 100%;">
+                      <option value="Under 20">   Under 20   </option>
+                      <option value="20-30"> 20-30 </option>
+                      <option value="31-40"> 31-40 </option>
+                      <option value="41-50"> 41-50 </option>
+                      <option value="51-60"> 51-60 </option>
+                      <option value="Above 60"> Above 60 </option>
+                   </select>
+               </td>
+            </tr>
+            
+            <tr><td> &nbsp; </td> </tr>            
+            
+            <tr>
+               <td style="width: 5%; text-align: right;">Gender &nbsp; </td>
+               <td style="width: 20%; text-align: left;">
+                  <table style="margin: 0px auto;">
+                     <tr>
+                        <td text-align: left> <input type="radio" name="gender" value="Male"> Male &nbsp; &nbsp; </td>
+                        <td text-align: left> <input type="radio" name="gender" value="Female">   Female &nbsp; &nbsp; </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+                             
+            <tr><td> &nbsp; </td> </tr>                                         
+                             
+            <tr>
+               <td style="width: 5%; text-align: right">Preferences &nbsp; </td>
+               <td style="width: 20%;">
+                  <table>
+                     <tr>
+                        <td "text-align: left"> <input type="checkbox" name="IT"          value="">IT       &nbsp; &nbsp; </td>
+                        <td> <input type="checkbox" name="CS"          value="">CS       &nbsp; &nbsp; </td>
+                        <td> <input type="checkbox" name="Robotics"    value="">Robotics &nbsp; &nbsp; </td>
+                        <td> <input type="checkbox" name="Engineering" value="">Engineering </td>
+                     </tr> 
+                  </table>
+               </td>
+            </tr>
+
+
+            <tr>
+               <td style="width: 5%; text-align: right;">Others &nbsp; </td>
+               <td style="width: 20%;">
+                  <input type="text" name="Others" value="" style="width: 100%;">
+               </td>
+            </tr>
+            
+            <tr><td> &nbsp; </td> </tr>                          
+              
+            <tr>
+               <td style="width: 5%; text-align: right;">Special Needs &nbsp; </td>
+               <td style="width: 20%;">
+                  <div> 
+                     <textarea name="SpecialNeeds" style="width: 100%; height: 50px;"></textarea> 
+                  </div>
+               </td>
+            </tr>
+               
+            <tr><td> &nbsp; </td> </tr>                                                        
+               
+            <tr>
+               <td style="width: 15%;"> </td>            
+               <td style="width: 20%;" align=center>                
+                  $message 
+               </td>
+            </tr>
+               
+            <tr><td> &nbsp; </td> </tr>                                         
+
+            <tr>
+               <td style="width: 15%;"> </td>            
+               <td style="width: 20%;" align=center> 
+                  <input type="submit" name="Find"   value="Find">
+                  <input type="submit" name="Save"   value="Save">
+                  <input type="submit" name="Modify" value="Modify">
+                  <input type="submit" name="Delete" value="Delete">
+                  <input type="submit" name="Clear"  value="Clear">
+               </td>
+            </tr>
+            
+         </table>
+      </form>
+   </div>			
+
+   
+
+<!-- **********************************************************************
+     Page Name: mainMenu.php                                               
+     Author:    Michael Robinson                                           
+     Updated:   12-29-2014                                                 
+     Purpose:   CSS dropdown menues samples                                          
+                                                                            
+     Thanks to: line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu 
+*********************************************************************** -->
+
+
+<html>
+
+  <head>  
+      
+    <title>CSS Dropdown Menu SecondWebPage.html Michael Robinson - FIU Research</title>
+        
+            
+    <style type="text/css">
+        nav ul ul 
+        {
+            display: none;
+            /*if changed to yes it will display all ul ul menues */
+        }
+        
+        
+        nav ul li:hover > ul 
+        {
+            display: block;
+        }
+        
+          
+        nav ul 
+        {
+            /* this section does not seem to have any effect */
+            background: purple; /* #efefef; */ 
+            background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+            background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+            background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+            box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+            padding: 0 5px;
+            border-radius: 10px;  
+            list-style: none;
+            position: relative;
+            display: inline-table;
+        }
+        
+            
+        nav ul:after 
+        {
+            content: ""; clear: both; display: block;
+	}
+                
+                
+        nav ul li 
+        {
+            /*left will display the menu in current order
+              right will display menu from the right (backwards) */
+            float: left;
+        }
+        
+        
+	nav ul li:hover 
+        {
+            background: #E0E0E0; /* #E0E0E0; #4b545f; = Very dark grayish blue./* 
+            background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+        }
+                
+                
+        nav ul li:hover a 
+        {
+            /* this section does not seem to have any effect */        
+            color: cyan; /* #ffffff; =white#ff00ff; /*#fff; */ /*menu name color */
+        }
+                
+                
+        nav ul li a 
+        {
+            display: block; padding: 10px 20px; /* menu height by witdh */
+            color: red; /* main menu name #757575;*/ text-decoration: unset;
+                
+                /*
+                text-decoration: none;
+                text-decoration: underline red;
+                text-decoration: underline wavy red;
+
+                text-decoration: inherit;
+                text-decoration: initial;
+                text-decoration: unset;
+                */
+	}
+                
+                
+        nav ul ul 
+        {
+                /* sub menues colors #bfc1c6;= light gray #5f6975;=darker lightslategray */
+                background: #f2f2f2;  border-radius: 0px; padding: 0; 
+                position: absolute; top: 100%;
+        }
+        
+        
+	nav ul ul li 
+        {
+                /*lines color top and bottom on submenues selections */
+		float: none; /*yes will display menues sideways, not top down */ 
+		border-top: 1px solid black; /*#6b727c; */ /*border top */
+		border-bottom: 1px solid black; /*border down */
+		position: relative;
+	}
+	
+	
+        nav ul ul li a 
+        {
+                /* selection name color at ul ul li */
+                padding: 10px 40px;
+                color: blue; /* #fff; */
+        }	
+                
+                
+        nav ul ul li a:hover 
+        {
+                /* hovering submenu background color selections #4b545f; submenu */
+                background: yellow; 
+        }
+                
+                
+        nav ul ul ul 
+        {
+                position: absolute; left: 100%; top:0;
+        }
+
+
+    </style>
+  
+  </head>
+    
+    
+  <body> <!-- most web commands go here -->
+       
+    <nav align="center">
+       <ul>
+          <li><a href="#">Teaching</a>
+             <ul>
+                <li><a href="#">Current Semester</a>  
+                   <ul>
+                      <li><a href="../../teaching/teachingMain.php#current">Class Schedules</a></li>
+                      <li><a href="../../teaching/HardwareLab/HardwareMain.php">Hardware Labs</a></li>
+                      <li><a href="../../teaching/teachingMain.php#C_ANSI">C - ANSI</a></li>
+                      <li><a href="../../teaching/teachingMain.php#java">Java</a></li>
+                      <li><a href="../../teaching/teachingMain.php#OS">Operating Systems</a></li>
+                      <li><a href="../../teaching/teachingMain.php#links">Useful Links</a></li>
+                      <li><a href="../../teaching/teachingMain.php#WEB">Web Design Management</a>
+                         <ul>
+                            <li><a href="../../teaching/teachingMain.php#HTML">HTML</a></li>
+                            <li><a href="../../teaching/teachingMain.php#CSS">CSS</a></li>
+                            <li><a href="../../teaching/teachingMain.php#JS">JavaScript</a></li>
+                            <li><a href="../../teaching/teachingMain.php#JSP">JSP</a></li>
+                            <li><a href="../../teaching/teachingMain.php#PHP">PHP</a></li>
+                            <li><a href="../../teaching/teachingMain.php#SQL">mySql</a></li>
+                            <li><a href="../../teaching/teachingMain.php#TOOLS">Web Tools</a></li>
+                            
+                            <li><a href="../../teaching/teachingMain.php#PERL"">Call Perl</a></li>
+                         </ul>
+                      </li>                            
+                   </ul>
+                </li>
+                <li><a href="../../teaching/futureSemesters.php">Future Semester</a></li>
+                <li><a href="../../teaching/previousSemesters.php">Previous Semester</a></li>
+             </ul>
+          </li>
+
+          <li><a href="../../research/research.php">Research</a></li>            
+          <li><a href="../../biography/biography.php">Biography</a></li>
+          <li><a href="../../purpose/purpose.php">Purpose</a></li>
+          <li><a href="../../contactsus/contactUs.php">Contact Me</a></li>             
+          <li><a href="../../index_cgi/">Home</a></li>
+       </ul>
+    </nav>
+     
+  </body> 
+
+</html>
+
+
+
+
+     
+   </body>
+   
+</html>
+

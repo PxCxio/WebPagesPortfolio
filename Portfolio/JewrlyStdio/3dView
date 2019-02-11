@@ -1,0 +1,55 @@
+ an empty div to hold your images / frames -->
+<div id="view3d"></div>
+...
+<script>
+    (function() {
+
+    // setup
+    var viewer = document.getElementById("view3d");
+    var name = "3d Boat";
+    var frameUri = "/images/demo3d.#.jpg";
+    var frameStart = 1;
+    var frameEnd = 100;
+
+    // setup the html IMG's
+    for(var i=frameStart; i<=frameEnd; i++) {
+        var img = document.createElement("img");
+        img.src = frameUri.replace("#", i);
+        img.alt = name;
+        img.style.display = "none";
+        viewer.appendChild(img);
+    }
+
+    // persisted variables and events
+    var that = this;
+    this.rotateX = 0;
+    this.isRotating = false;
+    this.frames = viewer.getElementsByTagName("img");
+    this.frameIdx = 0;
+    this.pixelsPerFrame = viewer.offsetWidth / (frames.length / 2);
+    function rotateMouseUp() { isRotating = false; };
+    function rotateMouseDown(event) { 
+        mouseX = event.pageX;
+        isRotating = true; 
+    };
+    function rotateMouseMove(event) {
+        if(!this.isRotating) 
+            return;
+        var x = event.pageX;
+        var delta = this.rotateX - x;
+        if(delta >= this.pixelsPerFrame) {
+            this.rotateX = x;
+            this.frames[this.frameIdx].style.display = 'none';
+            this.frameIdx = (this.frameIdx + parseInt(delta / pixelsPerFrame)) % this.frames.length;
+            this.frames[this.frameIdx].style.display = '';
+        }
+    }
+    viewer.onmousedown = rotateMouseDown.bind(that);
+    viewer.onmouseup = rotateMouseUp.bind(that);
+    viewer.onmousemove = rotateMouseMove.bind(that);
+
+    // show the first image
+    this.frames[this.frameIdx].style.display = '';
+
+    })();
+</script>

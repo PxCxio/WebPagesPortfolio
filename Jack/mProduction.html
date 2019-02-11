@@ -1,0 +1,233 @@
+<!-- ***************************************************************************************
+  Author     : Ciro Pascasio
+  Course     : WEB-3
+  URL        : ocelot.aul.fiu.edu/~cpasc003
+  Professor  : Michael Robinson
+  Program #  : Assignment 1 Make your own Webpage
+               {To Make a Simple Webpage and upload it to the ocelot server }
+
+
+  Due Date   : 09/07/2106
+  Certification:
+  I hereby certify that this work is my own and none of it is the work of any other person.
+
+  ..........{ Ciro Pascasio }..........
+
+**************************************************************************************** -->
+<!DOCTYPE html>
+
+<html lange="en">
+<head>
+<meta charset="utf-8" />
+<title> Ciro Samuel Pascasio - Music Production #4</title>
+<style>
+h1 {
+   font-family: Arial;
+   color: blue;
+   text-align: Center;
+   }
+
+body {
+      background : #C88898;
+      margin : 0;
+      padding : 0;
+      font-family : "Helvetica","Arial";
+     }
+ #wrapper {
+     width : 960px;
+     height : auto;
+     background : #DAD5C1;
+     border-left : 5px solid #A09885;
+     border-right : 5px solid #A09885;
+     overflow : auto;
+     margin : 0;
+     padding : 10px;
+}
+#header {
+        width : 100%;
+        height : 100px;
+        border-bottom : 3px solid #7c7063;
+
+}
+<style>
+ a:link { color:red;
+          text-decoration:none;
+        }
+
+ a:visited {
+            color:green;
+           }
+ nav ul ul
+        {
+            display: none;
+            /*if changed to yes it will display all ul ul menues */
+        }
+
+
+        nav ul li:hover > ul
+        {
+            display: block;
+        }
+
+
+        nav ul
+        {
+            /* this section does not seem to have any effect */
+            background: purple; /* #efefef; */
+            background: linear-gradient(top, #101010 0%, #2f1a1a 100%);
+            background: -moz-linear-gradient(top, #101010 0%, #2f1a1a 100%);
+            background: -webkit-linear-gradient(top, #101010 0%,#2f1a1a 100%);
+            box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+            padding: 0 5px;
+            border-radius: 10px;
+            list-style: none;
+            position: relative;
+            display: inline-table;
+        }
+
+
+        nav ul:after
+        {
+            content: ""; clear: both; display: block;
+        }
+
+
+        nav ul li
+        {
+            /*left will display the menu in current order
+              right will display menu from the right (backwards) */
+            float: left;
+        }
+
+
+        nav ul li:hover
+        {
+            background: #E0E0E0; /* #E0E0E0; #4b545f; = Very dark grayish blue./*
+            background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+        }
+
+
+        nav ul li:hover a
+        {
+            /* this section does not seem to have any effect */
+            color: cyan; /* #ffffff; =white#ff00ff; /*#fff; */ /*menu name color */
+        }
+
+
+        nav ul li a
+        {
+            display: block; padding: 10px 20px; /* menu height by witdh */
+            color: red; /* main menu name #757575;*/ text-decoration: unset;
+
+                /*
+                text-decoration: none;
+                text-decoration: underline red;
+                text-decoration: underline wavy red;
+
+                text-decoration: inherit;
+                text-decoration: initial;
+                text-decoration: unset;
+                */
+        }
+
+
+        nav ul ul
+        {
+                /* sub menues colors #bfc1c6;= light gray #5f6975;=darker lightslategray */
+                background: #f2f2f2;  border-radius: 0px; padding: 0;
+                position: absolute; top: 100%;
+        }
+
+
+        nav ul ul li
+        {
+                /*lines color top and bottom on submenues selections */
+                float: none; /*yes will display menues sideways, not top down */
+                border-top: 1px solid black; /*#6b727c; */ /*border top */
+                border-bottom: 1px solid black; /*border down */
+                position: relative;
+        }
+
+
+        nav ul ul li a
+        {
+                /* selection name color at ul ul li */
+                padding: 10px 40px;
+                color: blue; /* #fff; */
+        }
+
+
+        nav ul ul li a:hover
+        {
+                /* hovering submenu background color selections #4b545f; submenu */
+                background: yellow;
+        }
+
+
+        nav ul ul ul
+        {
+                position: absolute; left: 100%; top:0;
+        }
+
+</style>
+</head>
+
+<body>
+
+<h1 style="color:red; text-align:center">
+ Pascasio Ciro PageNum. 4
+ </h1>
+
+<h1 style="color:black; text-align:center">
+Music Production Tips and Tricks
+</h1>
+
+ <hr></hr>
+<table style="background:black;">
+<tr style="color:black;">
+<h2 style="background-color:black;color:blue; width:%100; text-align:center">
+    <a name="Ciro's Music"></a>
+    Ciro's Music
+ </h2>
+  <style type="text/css"> </style>
+</tr>
+<tr>
+</table>
+<nav align="center" style="background:#101010;">
+<ul>
+        <li><a href="index.html">Home</a></li>
+           <ul>
+           </ul>
+             <li><a href="musicPage.html">Music</a></li>
+             <li><a href="videoPage.html">Videos</a></li>
+             <li><a href="mProduction.html">Music Productions</a></li>
+             <li><a href="hotKeys.html">Life Saving Hot Keys</a></li>
+             <li><a href="Pgm2.php">Pgm2</a></li>
+ </ul>
+</nav>
+</tr>
+<hr></hr>
+ <br></br>
+
+<table>
+<tr>
+ <td>
+<img src="images/Equalizer.png" alt="EQualizer" style="width:304px;height:228px;">
+</td>
+<td>
+<img src="images/compressor.jpg" alt="Compressor" style="width:304px;height:228px;">
+</td>
+<td>
+ <p style="color:purple;font-family:Verdana;">
+  <font color="black" face="Helvetica" size="4"> Producing Requires making sure every instruments is occupying the intended audio spectrum and the intended tone, volume, preferably making each instrument disernable from each other
+</font></p>
+ </td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

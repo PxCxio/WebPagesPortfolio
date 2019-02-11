@@ -1,0 +1,48 @@
+
+
+head.td.th{
+   color:#333;
+}
+
+body {
+   background-color:#FFF;
+}
+
+
+a {
+  font-size: 14px;
+  color: #03F;
+}
+
+
+a.link{
+   text-decorator:none;
+}
+a.visited{
+   text-decorator:none;
+   color: #03F;
+}
+
+a.hover {
+   text-decorator:none;
+   color:#000;
+}
+
+a.active {
+   text-decorator:none;
+   color: #03F;
+}
+
+#pageHeader{
+
+
+}
+
+#pageContent{
+
+}
+
+#pageFooter{
+
+}
+

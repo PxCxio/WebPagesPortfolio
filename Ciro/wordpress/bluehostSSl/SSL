@@ -1,0 +1,210 @@
+
+The Certificate Signing Request for “*.cirono.com” has been generated and saved in your user directory. To purchase a trusted certificate, you must copy the Encoded Certificate Signing Request below and send it to the Certificate Authority. Follow the instructions provided by your Certificate Authority. 
+
+Domain:
+*.cirono.com
+
+Description:
+
+Personal Page
+
+ENCODED CERTIFICATE SIGNING REQUEST:
+
+----BEGIN CERTIFICATE REQUEST-----
+MIIC5TCCAc0CAQAwgYMxFTATBgNVBAMMDCouY2lyb25vLmNvbTEOMAwGA1UEBwwF
+TWlhbWkxCzAJBgNVBAYTAlVTMRcwFQYDVQQKDA5Ob3QgQXBwbGljYWJsZTEnMCUG
+CSqGSIb3DQEJARYYcHVua19yb2NrZ3V5QGhvdG1haWwuY29tMQswCQYDVQQIDAJG
+TDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ83F9SoTWJkBisZmZDF
+wbM3wrrlPvFAm9htmjafyd8WC9GinYaab6ESVnmm6SYtoyJbsC5pFMJ2UsBQ0xHa
+kO52prUIaej8HYQGi3RYzvHaDxyXCB5OQv+zs03Z7VJazBDss9g95i0ymfFJnHBA
+3KpjWKjfY5Lwobh/qSB2weKTpCzzdgxFm7ln0JCcf/zZg94Wda2FpqZ4Ug3y5x/i
+uUQ094AmXvPS9UzY/BS5mEKGv2iMkDgmbH/iW5yUgfMQ8SXTe1Ho7QGg+W42mJ93
+7DHBLIq3noAjKaURbud7/th3ZwmTDHKYUjopZ4JhCbSyziHSJVfiGPmOV58A7YSY
+mG8CAwEAAaAcMBoGCSqGSIb3DQEJBzENDAtIdWl0emlNbzE4MjANBgkqhkiG9w0B
+AQsFAAOCAQEAHlx/0rfHdU2O4YR0o/emxPRap2rAewy/AXbnh6p5+bwdlj+KXjqN
+dWT0Txx5FbYParrgB5Ii3j56UcL7XLR/ncfOuxCY6iG8DZ+28CC0SGBZECCw+9H2
+oFE7wxIkhKI7Du/4SKBT3hidBhYCswAKFhsWVRBqrr3vujUde+MpS+VJqhFUgVNt
+YGU93jRazhxGjpmqiduhCe9iVvCcwRdZM8/tZxyPM3IF/POJChM5JKnT55E9VO5p
+8sXTfbkScaAHl5wtYuf6ZG+YDjoB1T7NONEF9XppZ1r9153UyZDxMUO54QwR5IYs
+0Bqt7PjatX5VB+FGk+mUrDTWpGeBOXx6cA==
+-----END CERTIFICATE REQUEST-----
+
+###################################################################
+
+DECODED CERTIFICATE SIGNING REQUEST:
+
+Certificate Request:
+    Data:
+        Version: 0 (0x0)
+        Subject: CN = *.cirono.com, L = Miami, C = US, O = Not Applicable, emailAddress = punk_rockguy@hotmail.com, ST = FL
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:9f:37:17:d4:a8:4d:62:64:06:2b:19:99:90:c5:
+                    c1:b3:37:c2:ba:e5:3e:f1:40:9b:d8:6d:9a:36:9f:
+                    c9:df:16:0b:d1:a2:9d:86:9a:6f:a1:12:56:79:a6:
+                    e9:26:2d:a3:22:5b:b0:2e:69:14:c2:76:52:c0:50:
+                    d3:11:da:90:ee:76:a6:b5:08:69:e8:fc:1d:84:06:
+                    8b:74:58:ce:f1:da:0f:1c:97:08:1e:4e:42:ff:b3:
+                    b3:4d:d9:ed:52:5a:cc:10:ec:b3:d8:3d:e6:2d:32:
+                    99:f1:49:9c:70:40:dc:aa:63:58:a8:df:63:92:f0:
+                    a1:b8:7f:a9:20:76:c1:e2:93:a4:2c:f3:76:0c:45:
+                    9b:b9:67:d0:90:9c:7f:fc:d9:83:de:16:75:ad:85:
+                    a6:a6:78:52:0d:f2:e7:1f:e2:b9:44:34:f7:80:26:
+                    5e:f3:d2:f5:4c:d8:fc:14:b9:98:42:86:bf:68:8c:
+                    90:38:26:6c:7f:e2:5b:9c:94:81:f3:10:f1:25:d3:
+                    7b:51:e8:ed:01:a0:f9:6e:36:98:9f:77:ec:31:c1:
+                    2c:8a:b7:9e:80:23:29:a5:11:6e:e7:7b:fe:d8:77:
+                    67:09:93:0c:72:98:52:3a:29:67:82:61:09:b4:b2:
+                    ce:21:d2:25:57:e2:18:f9:8e:57:9f:00:ed:84:98:
+                    98:6f
+                Exponent: 65537 (0x10001)
+        Attributes:
+            challengePassword        :unable to print attribute
+    Signature Algorithm: sha256WithRSAEncryption
+         1e:5c:7f:d2:b7:c7:75:4d:8e:e1:84:74:a3:f7:a6:c4:f4:5a:
+         a7:6a:c0:7b:0c:bf:01:76:e7:87:aa:79:f9:bc:1d:96:3f:8a:
+         5e:3a:8d:75:64:f4:4f:1c:79:15:b6:0f:6a:ba:e0:07:92:22:
+         de:3e:7a:51:c2:fb:5c:b4:7f:9d:c7:ce:bb:10:98:ea:21:bc:
+         0d:9f:b6:f0:20:b4:48:60:59:10:20:b0:fb:d1:f6:a0:51:3b:
+         c3:12:24:84:a2:3b:0e:ef:f8:48:a0:53:de:18:9d:06:16:02:
+         b3:00:0a:16:1b:16:55:10:6a:ae:bd:ef:ba:35:1d:7b:e3:29:
+         4b:e5:49:aa:11:54:81:53:6d:60:65:3d:de:34:5a:ce:1c:46:
+         8e:99:aa:89:db:a1:09:ef:62:56:f0:9c:c1:17:59:33:cf:ed:
+         67:1c:8f:33:72:05:fc:f3:89:0a:13:39:24:a9:d3:e7:91:3d:
+         54:ee:69:f2:c5:d3:7d:b9:12:71:a0:07:97:9c:2d:62:e7:fa:
+         64:6f:98:0e:3a:01:d5:3e:cd:38:d1:05:f5:7a:69:67:5a:fd:
+         d7:9d:d4:c9:90:f1:31:43:b9:e1:0c:11:e4:86:2c:d0:1a:ad:
+         ec:f8:da:b5:7e:55:07:e1:46:93:e9:94:ac:34:d6:a4:67:81:
+         39:7c:7a:70
+
+#############################################################3
+
+Encoded Key:
+
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAnzcX1KhNYmQGKxmZkMXBszfCuuU+8UCb2G2aNp/J3xYL0aKd
+hppvoRJWeabpJi2jIluwLmkUwnZSwFDTEdqQ7namtQhp6PwdhAaLdFjO8doPHJcI
+Hk5C/7OzTdntUlrMEOyz2D3mLTKZ8UmccEDcqmNYqN9jkvChuH+pIHbB4pOkLPN2
+DEWbuWfQkJx//NmD3hZ1rYWmpnhSDfLnH+K5RDT3gCZe89L1TNj8FLmYQoa/aIyQ
+OCZsf+JbnJSB8xDxJdN7UejtAaD5bjaYn3fsMcEsireegCMppRFu53v+2HdnCZMM
+cphSOilngmEJtLLOIdIlV+IY+Y5XnwDthJiYbwIDAQABAoIBADKQH4xUqsa9d0wG
+xEM62oodAkWyeivJ1fSE0j3YvxaO/M/lsdtGfn8LwNS/kjmisrU9oxUKICKlyx/y
+SyXXYMGqgsTpWCE6t/Du1yjq70XVd4kf2d8uAY8NNbtao0jNNxOE6JSbC9d8w3Di
+bMEliC7AgC6ZSxkmPGXIfSCnNmnK80fX+AkjjN6y5mit4sCWg5I5Ai1B+TzWuGtC
+XjQLDaWprYL6EEIhnKYMKvADC8R3DzUyTDIqedKJ/f5LsqWNnKDXHlLs8fgPi2Uk
+6p9pQWx+Rbh2UF/BLoKmqflnjfzyQZe4V/qUn69k+92bKzuI1Ucn2M3nNDUDjCFC
+gDGjpAkCgYEAz4ItAr+rM1ayqpWfiKnPnPQBMb5vdiydZGwZuDaKmSv6LcjlkeuP
+Sq8NyD6XobHKX9yUECULvX9WNJEMsC5A8UBc2kylj9RHMIO2zJrBjDH7Vm4kxT8G
+eB479fhKR03ohi2AkExqKTYlOesoNREa2FctbE8ikGk04gJgGHg8ElMCgYEAxGvb
+i9+RlqrcvaHiH0gAlsVS0m0cVVEbFPfHYSPA+XOXD3kxSadOEzH5Y6HPA76kPqD5
+D68MOAxxoI2hqZTjdLqAqezbS4CBNomYj0oMjQUtHewcdo7qQpt4nKo/BU7Z0/UN
+5pglDhDvdjC86Pl++yq0d6A12IkrVSeMjmU01fUCgYAFYsaSTLE/2t82SD3kySuH
+Uln5lYzFD3FiWt/sBRZh1V9f8tfqiqekc5iy+tTqsHelN09sf9mnKHfvU1h19i1f
+VaFTVSvy6LqUSsbi1p1xaxav7pnruLANTBOYVcJvyVjgqquskx8qRKqAr1bS0cfV
+l6WpKwClqOVjfFZMLEq62wKBgGIdwpiXQCF0DjoHwG2ByRGHVfzZFhskHZQWxZin
+hIDXFbFcB5vUH/MEtp/nNwKW23KRdHg6J69jv+rEdOnB/vDTLOw07cJEWcdFaljB
+U42p9USKKhmrACfvg4s2m65qGfN/6Ma0X2YsXYG7jNIPtzd9uJI9DEizFFtAGz0S
+Hxd1AoGAWTyE5xPOWIgv6TiqfN/Gp7iiYddUcWWtJ/KI5budETwyHVDpDu+Lw352
+8eqjmHHKwJLxbQETSF38VfoenGq9nXZBU8BagDAwYLP6Dj36aVE2ICg4EXRRUNTr
+SvTr/Vu9toBoN73qZzHlY0TWgYubftZ0Yfxx8tfMrEmsMHr6vNA=
+-----END RSA PRIVATE KEY-----
+
+######################################################
+
+DECODED KEY:
+
+Private-Key: (2048 bit)
+modulus:
+    00:9f:37:17:d4:a8:4d:62:64:06:2b:19:99:90:c5:
+    c1:b3:37:c2:ba:e5:3e:f1:40:9b:d8:6d:9a:36:9f:
+    c9:df:16:0b:d1:a2:9d:86:9a:6f:a1:12:56:79:a6:
+    e9:26:2d:a3:22:5b:b0:2e:69:14:c2:76:52:c0:50:
+    d3:11:da:90:ee:76:a6:b5:08:69:e8:fc:1d:84:06:
+    8b:74:58:ce:f1:da:0f:1c:97:08:1e:4e:42:ff:b3:
+    b3:4d:d9:ed:52:5a:cc:10:ec:b3:d8:3d:e6:2d:32:
+    99:f1:49:9c:70:40:dc:aa:63:58:a8:df:63:92:f0:
+    a1:b8:7f:a9:20:76:c1:e2:93:a4:2c:f3:76:0c:45:
+    9b:b9:67:d0:90:9c:7f:fc:d9:83:de:16:75:ad:85:
+    a6:a6:78:52:0d:f2:e7:1f:e2:b9:44:34:f7:80:26:
+    5e:f3:d2:f5:4c:d8:fc:14:b9:98:42:86:bf:68:8c:
+    90:38:26:6c:7f:e2:5b:9c:94:81:f3:10:f1:25:d3:
+    7b:51:e8:ed:01:a0:f9:6e:36:98:9f:77:ec:31:c1:
+    2c:8a:b7:9e:80:23:29:a5:11:6e:e7:7b:fe:d8:77:
+    67:09:93:0c:72:98:52:3a:29:67:82:61:09:b4:b2:
+    ce:21:d2:25:57:e2:18:f9:8e:57:9f:00:ed:84:98:
+    98:6f
+publicExponent: 65537 (0x10001)
+privateExponent:
+    32:90:1f:8c:54:aa:c6:bd:77:4c:06:c4:43:3a:da:
+    8a:1d:02:45:b2:7a:2b:c9:d5:f4:84:d2:3d:d8:bf:
+    16:8e:fc:cf:e5:b1:db:46:7e:7f:0b:c0:d4:bf:92:
+    39:a2:b2:b5:3d:a3:15:0a:20:22:a5:cb:1f:f2:4b:
+    25:d7:60:c1:aa:82:c4:e9:58:21:3a:b7:f0:ee:d7:
+    28:ea:ef:45:d5:77:89:1f:d9:df:2e:01:8f:0d:35:
+    bb:5a:a3:48:cd:37:13:84:e8:94:9b:0b:d7:7c:c3:
+    70:e2:6c:c1:25:88:2e:c0:80:2e:99:4b:19:26:3c:
+    65:c8:7d:20:a7:36:69:ca:f3:47:d7:f8:09:23:8c:
+    de:b2:e6:68:ad:e2:c0:96:83:92:39:02:2d:41:f9:
+    3c:d6:b8:6b:42:5e:34:0b:0d:a5:a9:ad:82:fa:10:
+    42:21:9c:a6:0c:2a:f0:03:0b:c4:77:0f:35:32:4c:
+    32:2a:79:d2:89:fd:fe:4b:b2:a5:8d:9c:a0:d7:1e:
+    52:ec:f1:f8:0f:8b:65:24:ea:9f:69:41:6c:7e:45:
+    b8:76:50:5f:c1:2e:82:a6:a9:f9:67:8d:fc:f2:41:
+    97:b8:57:fa:94:9f:af:64:fb:dd:9b:2b:3b:88:d5:
+    47:27:d8:cd:e7:34:35:03:8c:21:42:80:31:a3:a4:
+    09
+prime1:
+    00:cf:82:2d:02:bf:ab:33:56:b2:aa:95:9f:88:a9:
+    cf:9c:f4:01:31:be:6f:76:2c:9d:64:6c:19:b8:36:
+    8a:99:2b:fa:2d:c8:e5:91:eb:8f:4a:af:0d:c8:3e:
+    97:a1:b1:ca:5f:dc:94:10:25:0b:bd:7f:56:34:91:
+    0c:b0:2e:40:f1:40:5c:da:4c:a5:8f:d4:47:30:83:
+    b6:cc:9a:c1:8c:31:fb:56:6e:24:c5:3f:06:78:1e:
+    3b:f5:f8:4a:47:4d:e8:86:2d:80:90:4c:6a:29:36:
+    25:39:eb:28:35:11:1a:d8:57:2d:6c:4f:22:90:69:
+    34:e2:02:60:18:78:3c:12:53
+prime2:
+    00:c4:6b:db:8b:df:91:96:aa:dc:bd:a1:e2:1f:48:
+    00:96:c5:52:d2:6d:1c:55:51:1b:14:f7:c7:61:23:
+    c0:f9:73:97:0f:79:31:49:a7:4e:13:31:f9:63:a1:
+    cf:03:be:a4:3e:a0:f9:0f:af:0c:38:0c:71:a0:8d:
+    a1:a9:94:e3:74:ba:80:a9:ec:db:4b:80:81:36:89:
+    98:8f:4a:0c:8d:05:2d:1d:ec:1c:76:8e:ea:42:9b:
+    78:9c:aa:3f:05:4e:d9:d3:f5:0d:e6:98:25:0e:10:
+    ef:76:30:bc:e8:f9:7e:fb:2a:b4:77:a0:35:d8:89:
+    2b:55:27:8c:8e:65:34:d5:f5
+exponent1:
+    05:62:c6:92:4c:b1:3f:da:df:36:48:3d:e4:c9:2b:
+    87:52:59:f9:95:8c:c5:0f:71:62:5a:df:ec:05:16:
+    61:d5:5f:5f:f2:d7:ea:8a:a7:a4:73:98:b2:fa:d4:
+    ea:b0:77:a5:37:4f:6c:7f:d9:a7:28:77:ef:53:58:
+    75:f6:2d:5f:55:a1:53:55:2b:f2:e8:ba:94:4a:c6:
+    e2:d6:9d:71:6b:16:af:ee:99:eb:b8:b0:0d:4c:13:
+    98:55:c2:6f:c9:58:e0:aa:ab:ac:93:1f:2a:44:aa:
+    80:af:56:d2:d1:c7:d5:97:a5:a9:2b:00:a5:a8:e5:
+    63:7c:56:4c:2c:4a:ba:db
+exponent2:
+    62:1d:c2:98:97:40:21:74:0e:3a:07:c0:6d:81:c9:
+    11:87:55:fc:d9:16:1b:24:1d:94:16:c5:98:a7:84:
+    80:d7:15:b1:5c:07:9b:d4:1f:f3:04:b6:9f:e7:37:
+    02:96:db:72:91:74:78:3a:27:af:63:bf:ea:c4:74:
+    e9:c1:fe:f0:d3:2c:ec:34:ed:c2:44:59:c7:45:6a:
+    58:c1:53:8d:a9:f5:44:8a:2a:19:ab:00:27:ef:83:
+    8b:36:9b:ae:6a:19:f3:7f:e8:c6:b4:5f:66:2c:5d:
+    81:bb:8c:d2:0f:b7:37:7d:b8:92:3d:0c:48:b3:14:
+    5b:40:1b:3d:12:1f:17:75
+coefficient:
+    59:3c:84:e7:13:ce:58:88:2f:e9:38:aa:7c:df:c6:
+    a7:b8:a2:61:d7:54:71:65:ad:27:f2:88:e5:bb:9d:
+    11:3c:32:1d:50:e9:0e:ef:8b:c3:7e:76:f1:ea:a3:
+    98:71:ca:c0:92:f1:6d:01:13:48:5d:fc:55:fa:1e:
+    9c:6a:bd:9d:76:41:53:c0:5a:80:30:30:60:b3:fa:
+    0e:3d:fa:69:51:36:20:28:38:11:74:51:50:d4:eb:
+    4a:f4:eb:fd:5b:bd:b6:80:68:37:bd:ea:67:31:e5:
+    63:44:d6:81:8b:9b:7e:d6:74:61:fc:71:f2:d7:cc:
+    ac:49:ac:30:7a:fa:bc:d0
+
+
+

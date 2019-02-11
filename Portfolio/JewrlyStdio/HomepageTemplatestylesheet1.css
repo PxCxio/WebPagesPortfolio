@@ -1,0 +1,47 @@
+
+
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-gap 10px;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-rows: 6;
+		
+}
+
+.masthead {
+	grid-column: 1 / 12;
+	grid-row: 1 / 0;
+	background-color: black;
+	font-size: 64;
+}
+
+.page-title {
+	grid-column: 1 /11;
+	grid-row: 2/ 2;
+	background-color: red;
+	text-align: center;
+	vertical-align: middle;
+}
+.main-content {
+	background-color: grey;
+	grid-column: 2 /11;
+	grid-row: 3 /12;
+	
+}
+
+.sidebar {
+	background-color: yellow;
+	grid-column: 1 / 2 ;
+	grid-row: 3 /10;
+}
+
+.footer {
+	background-color: black;
+	grid-column: 1 / 12;
+	grid-row: 10 /14;
+}
+
+
+

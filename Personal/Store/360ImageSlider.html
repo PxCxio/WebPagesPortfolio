@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<title>360ImageSlider</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+	   function getimg()
+	  {
+		setInterval (function (){ imgfun()},100);
+	  }
+	function imgfun()
+	{
+		var imgvalu=document.getElementById("imgrange").value;
+		document.getElementById("imgg").src="images/"+imgvalu+".jpg";
+	}
+
+	</script>
+  </head>
+    
+   <body onload="getimg()">
+	<center>
+	<img src="" width="800" height="400" id="imgg" style="border: 2px solid black;border-radius: 20px;" />
+	<br>
+	<input onclick="getimg()" type="range" value="1" min="1" max="43" id="imgrange">
+	</center>
+
+  </body>
+  </html>

@@ -1,0 +1,84 @@
+<html>
+<title>
+Ciro Menu Template
+</title>
+<head>
+<style type="text/css">
+	
+   
+    *{
+	margin: 0;
+	padding: 0;
+    }
+
+nav{
+   margin 150px auto;
+   width: 450px;
+   height: 450px;
+}
+
+#check{
+   diplay: none;
+}
+
+#central {
+   cursor: pointer;
+   width:  150px;
+   height: 150px;
+   position: absolute;
+   margin: 150px 150px;
+   z-index: 1;
+}
+
+#central img{
+	width: 100%;
+	transition: all .4s ease-in-out;
+	border-radius: 50%;
+}
+
+.link{
+	position: absolute;
+	margin: 195px 195px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	transition: all .1s ease-out;
+}
+ 
+#check:checked ~ a #link_01{
+	transform: translateY(-150px);
+}
+
+#check:checked ~ a #link_02{
+	transform: translateX(150px);
+        transition-delay: .1s;
+}
+
+#check:checked ~ a #link_03{
+	transform: translateY(150px);
+	transition-delay: .2s;
+}
+#check:checked ~ a #link_04{
+	transform: translateX(-150px);
+	transition-delay: .3s;
+}
+
+#check:checked ~ central img{
+	transform: rotate(45deg);
+}
+</style>
+</head>
+<body>
+	<nav>
+	  
+	  <input type="checkbox" id="check">
+	  <label id="central" for="check"><img src="centralxy.png"/></label>
+	  <a href="a"><img class="link" id="link_01" src="link_01.png"/></a>
+	  <a href="a"><img class="link" id="link_02" src="link_02.png"/></a>
+	  <a href="a"><img class="link" id="link_03" src="link_03.png"/></a>
+	  <a href="a"><img class="link" id="link_04" src="link_04.png"/></a>
+	   
+	</nav>
+</body>
+
+</html>

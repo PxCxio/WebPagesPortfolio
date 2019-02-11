@@ -1,0 +1,208 @@
+<head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+    }
+
+nav{
+   margin 1px 1px;
+   width: 500px;
+   height: 25px;
+}
+
+.ftlinks{
+margin 1px 1px;
+   width: 300px;
+   height: 25px;
+
+}
+
+.reg{
+margin 1px 1px;
+   width: 300px;
+   height: 25px;
+}
+
+
+#check{
+   display: none;
+}
+
+#central {
+   cursor: pointer;
+   width:  69px;
+   height: 69px;
+   position: absolute;
+   margin: -540px 25px;
+   z-index: 1;
+}
+
+@media (min-width:500px){
+#central {
+   cursor: pointer;
+   width:  120px;
+   height: 120px;
+   position: absolute;
+   margin: -44px -95px;
+   z-index: 1;
+}
+}
+
+
+@media (min-width:700px){
+#central {
+   cursor: pointer;
+   width:  120px;
+   height: 120px;
+   position: absolute;
+   margin: -44px -95px;
+   z-index: 1;
+}
+}
+
+#central img{
+	width: 100%;
+	transition: all .4s ease-in-out;
+	border-radius: 50%;
+}
+.prtFolio{
+
+margin 1px 1px
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin: -60px; -34px;
+        transform: translate(220px,-480px);
+}
+
+
+@media (min-width:500px){
+.prtFolio{
+
+margin 1px 1px
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin: 10px; -80px;
+        transform: translate(5px,-98px);
+
+}}
+
+@media (min-width:700px){
+.prtFolio{
+
+margin 1px 1px
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin: 10px; -80px;
+        transform: translate(5px,-98px);
+
+}}
+
+.link{
+	position: absolute;
+	margin: -530px 180px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	transition: all .1s  ease-out;
+}
+
+@media (min-width:500px){
+.link{
+	position: absolute;
+	margin: -40px 90px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	transition: all .1s ease-out;
+}}
+
+@media (min-width:700px){
+.link{
+	position: absolute;
+	margin: -40px 90px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	transition: all .1s ease-out;
+}}
+
+
+
+#check:checked ~ a #link_01{
+	transform: translateY(95px);
+}
+
+@media (min-width:700px){ 
+#check:checked ~ a #link_01{
+	transform: translateY(-150px);
+}}
+
+#check:checked ~ a #link_02{
+	transform: translateX(95px);
+        transition-delay: .1s;
+}
+
+@media (min-width:700px){
+#check:checked ~ a #link_02{
+	transform: translateX(150px);
+        transition-delay: .1s;
+}}
+
+#check:checked ~ a #link_03{
+	transform: translate(100px,-100px);
+	transition-delay: .2s;
+}
+
+@media (min-width:700px){
+#check:checked ~ a #link_03{
+	transform: translate(100px,-100px);
+	transition-delay: .2s;
+}}
+
+#check:checked ~ a #link_04{
+	transform: translateX(-150px);
+	transition-delay: .3s;
+}
+
+#check:checked ~ a #link_05{
+	transform: translate(-100px,-100px);
+	transition-delay: .3s;
+}
+
+#check:checked ~ #central img{
+	transform: rotate(50deg);
+}
+
+
+
+    </style>
+</head>
+
+<body>
+
+<center>
+&nbsp; &nbsp;
+	<nav class="reg">
+	<img class="prtFolio" id="prtFolio" src="http://cirono.com/wp-content/uploads/2017/11/prtFolio.png"/>
+	</nav>
+
+
+        <nav class="reg">
+
+          <input type="checkbox" id="check">
+          <label id="central" for="check"><img src="http://cirono.com/wp-content/uploads/2017/10/Centralxy.png"/></label>
+          <a href="a"><img class="link" id="link_01" src="http://cirono.com/wp-content/uploads/2017/10/link_01.png"/></a>
+          <a href="a"><img class="link" id="link_02" src="http://cirono.com/wp-content/uploads/2017/10/link_02.jpg"/></a>
+          <a href="a"><img class="link" id="link_03" src="http://cirono.com/wp-content/uploads/2017/10/link_03.png"/></a>
+          <a href="a"><img class="link" id="link_04" src="http://cirono.com/wp-content/uploads/2017/10/link_04.png"/></a>
+	  <a href="a"><img class="link" id="link_05" src="http://cirono.com/wp-content/uploads/2017/10/link_05.jpg"/></a>
+
+        </nav>	
+</center>
+</div>
+
+</body>
